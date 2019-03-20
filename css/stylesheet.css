@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#slides{ 
+	padding-bottom: 50px;
+	
+}
+#slides h1{
+	font-size: 80px;
+	font-weight: 600;
+	color: #FF6C09;
+	
+}
+#slides p{
+	font-size: 20px;
+	}
+
+
+.btn-rectanglo{
+	background-color: transparent;
+	border: 1px solid  #FF6C09;
+	color: #FF6C09;
+	border-radius: 0;
+	padding: 10px 20px;
+	font-weight: 600;
+}
+#services{
+	text-align: center;
+	}
+#services h1{
+	color: blue;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	
+}
+.titulo::after{
+	content: '';
+	height: 2px;
+	background-color: blue;
+	width: 100px;
+	display: block;
+	margin-top: 20px;
+	margin: 20px auto; 
+}
+
+#services p{
+	padding-bottom: 30px;
+}
+#welcome{
+	padding-bottom: 30px;
+}
+#welcome h1{
+	text-align: center;
+	color: blue;
+	padding-top: 30px;
+}
+#welcome p{
+	padding-bottom: 30px;
+}
+#sec-gallery{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color:blue;
+	color: orangered;
+}
+#sec-gallery h1{
+	color: orangered;
+	padding-top: 30px;
+}
+#logos{
+	background-color: white;
+	padding: 50px 0;
+}
+#logos h1{
+	text-align: center;
+}
